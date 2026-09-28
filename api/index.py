@@ -126,4 +126,4 @@ def calculate_metrics(request: RequestData):
             "breaches": breaches
         }
 
-    return response
+    return {"regions": response}
